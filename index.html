@@ -1,0 +1,18 @@
+
+<head>
+  <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+  <script src="https://cdn.rawgit.com/mrdoob/three.js/r84/build/three.js"></script>
+  <script src="https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script>
+  <script src="https://unpkg.com/webrtc-adapter/out/adapter.js"></script>
+  <script src="https://unpkg.com/aframe-video-billboard"></script>
+  <script>
+    registerAframeVideoBillboard(window.AFRAME);
+  </script>
+</head>
+
+<body>
+  <a-scene altspace>
+    <a-video-billboard></a-video-billboard>
+    <a-camera></a-camera>
+  </a-scene>
+</body>
